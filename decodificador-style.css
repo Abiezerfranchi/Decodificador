@@ -1,0 +1,268 @@
+
+body{
+	font-family: 'Chakra Petch', sans-serif;
+	}
+
+header {
+	background: linear-gradient(#306090 70%, white);
+	padding: 1vw;
+}
+
+.caixa {
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+}
+
+h1{
+	position: relative;
+	display: inline-block;
+	text-align:center;
+	width: 17vw;
+	padding: 1vw;
+	margin: 0 0 0 10vw;
+}
+
+.imagem{
+	width:100%;
+}
+
+.titulo{
+	position: absolute;
+	top: 5vw;
+	right: 15vw;
+	display: inline-block;
+	font-size: 4vw;
+	margin: 1vw 1vw;
+	font-weight: bold;
+	text-decoration: underline;
+	color:rgb(212,189,145);
+}
+
+
+.text{
+	position: relative;
+	text-align:center;
+	width: 100%;
+	margin: auto;
+
+	}
+
+textarea{
+	padding:0 1vw;
+	resize:none;
+	font-family: 'Chakra Petch', sans-serif;
+	font-size:1vw;
+}
+
+#texto{
+	border:none;
+	outline:0;
+	margin: 1vw 2.5vw;
+	font-weight: bold;
+	width:25vw;
+	height:30vw;
+}
+
+#resultado{
+	border: 1vw solid #306090;
+	border-radius: 1.5vw;
+	outline:0;
+	margin: 1vw 2.5vw;
+	box-shadow: 10px 5px 10px 3px #306070;
+	width:25vw;
+	height:30vw;
+}
+
+.alerta{
+	position: absolute;
+	top:33vw;
+	left:18vw;
+	font-weight: bold;
+	text-align:left;
+	color: #B22222;
+	margin: 1vw;
+	font-size: 1.2vw;
+	animation: changeColor .8s infinite;
+}
+
+@-webkit-keyframes changeColor {
+  50%  {color: #B22222;}
+  50%  {color: #FF0000;}
+}
+
+.btn{
+	position:relative;
+	text-align:center;
+	padding: 2vw ;
+	margin: 1vw 1vw;
+}
+
+button{
+	margin: 0.5vw 0.5vw 0.5vw ;
+	width: 11vw;
+	padding: 0.4vw 0.4vw;
+	display: inline-block;
+	font-size: 1.25vw;
+	font-weight: bold;
+	font-family: 'Chakra Petch', sans-serif;
+	background: linear-gradient(45deg, #306090 50%, #E0FFFF);
+	color: rgb(212,189,145);
+	border: none;
+	border-radius: 0.7vw;
+	transition: 0.5s;
+	box-shadow: 10px 5px 10px 3px #306070;
+}
+
+#cod {
+	position:absolute;
+	left:18vw;
+	top:0;
+}
+
+#decod {
+	position:absolute;
+	left:32vw;
+	top:0; 
+}
+
+#copiar {
+	position:absolute;
+	left:60vw;
+	top:0;
+}
+
+#cod:hover{
+	cursor: pointer;
+	transform: scale(1.1);	
+	font-weight: bold;
+	background: linear-gradient(45deg, #306090 5%, #E0FFFF);
+	color: white;
+}
+
+#cod:active{
+	cursor: pointer;
+	transform: scale(0.98);	
+	font-weight: bold;
+	background: linear-gradient(45deg, #306090 50%, #E0FFFF);
+	color: rgb(212,189,145);
+	transition: .1s
+}
+
+#decod:hover{
+	cursor: pointer;
+	transform: scale(1.1);	
+	font-weight: bold;
+	background: linear-gradient(45deg, #306090 5%, #E0FFFF);
+	color: white;
+}
+
+#decod:active{
+	cursor: pointer;
+	transform: scale(0.98);	
+	font-weight: bold;
+	background: linear-gradient(45deg, #306090 50%, #E0FFFF);
+	color: rgb(212,189,145);
+	transition: .1s
+}
+
+#copiar:hover{
+	cursor: pointer;
+	transform: scale(1.1);	
+	font-weight: bold;
+	background: linear-gradient(45deg, #306090 5%, #E0FFFF);
+	color: white;
+	
+}
+
+#copiar:active{
+	cursor: pointer;
+	transform: scale(0.98);	
+	font-weight: bold;
+	background: linear-gradient(45deg, #306090 50%, #E0FFFF);
+	color: rgb(212,189,145);
+	transition: .1s
+}
+
+.imagemResultado{
+	position:absolute;
+	left:52vw;
+	top:1.8vw;
+	width:27.2vw;
+	height:30.3vw;
+	opacity: 50%;
+	background: linear-gradient(#306090 50%, #E0FFFF);
+	border-radius:1vw;
+	visibility: visible;
+}
+
+.lupa{
+	margin: 2vw;
+	width:18vw;
+}
+
+.texto{
+	position:relative;
+	font-size:1.5vw;
+	font-weight: bold;
+	color:black;
+	text-shadow: 0.2vw 0.2vw #ffffff;
+	font-family: 'Chakra Petch', sans-serif;
+}
+
+footer {
+	text-align: center;
+	background: linear-gradient(to top, #306090 50%, white);
+	padding: 3vw 0;
+}
+
+.copyright {
+	color: rgb(212,189,145);
+	font-size: 1vw;
+	margin: 1vw 0 0;
+	font-weight: bold;
+	text-align:center;
+}
+
+.github{
+	position:realative;
+	width:3.5vw;
+	margin: 1vw 0;
+}
+
+.linkedin{
+	position:relative;
+	width:2vw;
+	margin: 1vw 0;
+}
+
+@media screen and (max-width: 1630px){
+     
+.imagemResultado{
+	position:absolute;
+	left:52.2vw;
+	top:1.8vw;
+	width:27.3vw;
+	}
+}
+
+@media screen and (max-width: 800px){
+
+.imagemResultado{
+	position:absolute;
+	left:52.6vw;
+	top:1.8vw;
+	width:27.4vw;
+	}
+}
+
+@media screen and (max-width: 400px){
+
+.imagemResultado{
+	position:absolute;
+	left:52.7vw;
+	top:1.7vw;
+	width:27.5vw;
+	height:30.2vw;
+	}
+}

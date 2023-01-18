@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Decodificador</title>
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="decodificador-style.css">
+		<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap" rel="stylesheet">
+
+	</head>
+
+	<body>
+	
+		<header>
+			<div class="caixa">
+				<h1><img src="logo.png" class=imagem></h1>
+				<p class="titulo">DECODIFICADOR</p>
+			</div>
+		</header>
+
+		<main>
+
+			<div class="text">
+
+			<textarea id="texto" cols= "50" rows="30" placeholder="Digite seu texto" ></textarea>
+			<textarea id="resultado" cols= "50" rows="30" readonly></textarea>
+			<p class="alerta"> ⚠ Somente letras minúsculas e sem acentuação</p>
+
+				<div class="btn">
+				<button id="cod">Codificar</button>
+				<button id="decod">Decodificar</button>
+				<button id="copiar">Copiar</button>
+				</div>
+
+					<div class="imagemResultado"
+					<h2><img src="lupa.png" class=lupa></h2>
+					<p class="texto"> Nenhuma mensagem encontrada!!</p>
+					</div>
+
+			</div>
+
+		</main>
+
+		<footer>
+		
+			<p class="copyright">&copy; Desenvolvido por Abiezer Franchi - 2023</p>
+			<a href="https://github.com/Abiezerfranchi"><img src="Github.png" class=github></a>
+			<a href="https://www.linkedin.com/in/abiezer-franchi/"><img src="linkedin.png" class=linkedin></a>
+		</footer>
+
+		<script src="./decodificador.js"></script>
+
+	</body>
+</html>
