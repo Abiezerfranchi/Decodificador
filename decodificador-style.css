@@ -248,21 +248,143 @@ footer {
 
 @media screen and (max-width: 800px){
 
-.imagemResultado{
-	position:absolute;
-	left:52.6vw;
-	top:1.8vw;
-	width:27.4vw;
-	}
+h1{ 
+	width:25vw;
 }
 
-@media screen and (max-width: 400px){
+.titulo{
+	position:absolute;
+	top: 8vw;
+	right: 15vw;
+}
+
+#texto{
+	margin: 2vw 1vw 5vw 1vw;
+	padding: 2vw 1vw 2vw 1vw;
+	width:55vw;
+	height:70vw;
+	font-size:2vw;
+}
+
+#resultado{
+	margin: 5vw 1vw 2vw 1vw;
+	padding: 2vw 1vw 2vw 1vw;
+	width:55vw;
+	height:70vw;
+	font-size:2vw;
+}
+
+.alerta{
+	position: absolute;
+	top:75vw;
+	left:22vw;
+	font-size: 2.5vw;
+}
+
+#cod {
+	position:absolute;
+	left:31vw;
+	top:-87vw;
+	font-size:2vw;
+	width:15vw;
+	border-radius:1.5vw;
+}
+
+#decod {
+	position:absolute;
+	left:50vw;
+	top:-87vw;
+	font-size:2vw;
+	width:15vw;
+	border-radius:1.5vw;
+}
+
+#copiar {
+	position:absolute;
+	left:40vw;
+	top:0;
+	font-size:2vw;
+	width:15vw;
+	border-radius:1.5vw;
+}
+
+#cod:hover{
+	cursor: pointer;
+	transform: none;
+	color: rgb(212,189,145);
+	background: linear-gradient(45deg, #306090 50%, #E0FFFF);	
+}
+
+#cod:active{
+	cursor: pointer;
+	transform: scale(0.7);	
+	font-weight: bold;
+	color: rgb(212,189,145);
+	transition: .1s
+}
+
+#decod:hover{
+	cursor: pointer;
+	transform: none;
+	color: rgb(212,189,145);
+	background: linear-gradient(45deg, #306090 50%, #E0FFFF);	
+}
+
+#decod:active{
+	cursor: pointer;
+	transform: scale(0.7);	
+	font-weight: bold;
+	color: rgb(212,189,145);
+	transition: .1s
+}
+
+#copiar:hover{
+	cursor: pointer;
+	transform: none;
+	color: rgb(212,189,145);
+	background: linear-gradient(45deg, #306090 50%, #E0FFFF);	
+}
+
+#copiar:active{
+	cursor: pointer;
+	transform: scale(0.7);	
+	font-weight: bold;
+	color: rgb(212,189,145);
+	transition: .1s
+}
 
 .imagemResultado{
 	position:absolute;
-	left:52.7vw;
-	top:1.7vw;
-	width:27.5vw;
-	height:30.2vw;
-	}
+	left:21vw;
+	top:87.5vw;
+	width:57.6vw;
+	height:74vw;
+}
+
+.lupa{
+	margin: 5vw;
+	width:40vw;
+}
+
+.texto{
+	font-size:3.5vw;
+}
+
+footer {
+	padding: 7vw 0;
+}
+
+.copyright {
+	font-size: 2vw;
+
+}
+
+.github{
+	width:7vw;
+}
+
+.linkedin{
+	width:3.8vw;
+}
+
 }
